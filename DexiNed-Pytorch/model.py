@@ -250,6 +250,7 @@ class DexiNet(nn.Module):
 
         # return results
         results.append(block_cat)
+        results.append(block_6)
         return results
 
 
